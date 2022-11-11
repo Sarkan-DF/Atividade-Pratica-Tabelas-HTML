@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela HTML</title>
+
+    <style>
+        table, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        #linha1{
+            text-align: left;
+        }
+        #linha2{
+            text-align: center;
+        }
+        #linha3{
+            text-align: right;
+        }
+        #linha4{
+            text-align: left;
+        }
+        #linha5{
+            text-align: center;
+        }
+        #linha6{
+            text-align: left;
+        }
+        #linha7{
+            text-align: center;
+        }
+        #linha8{
+            text-align: center;
+        }
+        #linha9{
+            text-align: left;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <h3>Tabela 1</h3>
+        <tbody>
+            <tr id="linha1">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr id="linha2">
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr id="linha3">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table>
+        <h3>Tabela 2</h3>
+        <tbody>
+            <tr id="linha4">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr id="linha5">
+                <td colspan="3">4</td>
+            </tr>
+            <tr id="linha6">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table>
+        <h3>Tabela 3</h3>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="3" id="linha7">3</td>
+            </tr>
+            <tr id="linha8">
+                <td colspan="2">4</td>
+            </tr>
+            <tr id="linha9">
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
